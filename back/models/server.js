@@ -8,7 +8,7 @@ class Server {
 
         // Middlewares
         this.middlewares();
-        // Rutas de mi aplicación
+        // Rutas de la aplicación
         this.routes();
     }
 
@@ -20,7 +20,7 @@ class Server {
     }
 
     routes() {
-        // Ruta de prueba para tu avance
+        // Ruta de prueba 
         this.app.get('/api/prueba', (req, res) => {
             res.status(200).json({
                 msg: "¡El backend funciona" // [cite: 738, 739]
