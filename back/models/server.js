@@ -23,7 +23,7 @@ class Server {
         // Ruta de prueba para tu avance
         this.app.get('/api/prueba', (req, res) => {
             res.status(200).json({
-                msg: "¡El cascarón del backend funciona!" // [cite: 738, 739]
+                msg: "¡El backend funciona" // [cite: 738, 739]
             });
         });
     }
